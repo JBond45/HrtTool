@@ -1,0 +1,47 @@
+body{
+    font-family: Ubuntu, Verdana;
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+}
+#Banner{
+   background-color: rgb(150, 100, 150);
+   font-size: 5vw;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+#question{
+    font-size: 3vw;
+}
+label{
+    font-size: 2vw;
+}
+input[type="radio"]{
+    cursor: pointer;
+    width: 1.3vw;
+    height: 1.3vw;
+    border-radius: 50%;
+}
+button{
+    background-color: #66a9a9;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 1vw;
+    cursor: pointer;
+    border-radius: 25px;
+    
+}
+input[type="range"]{
+    width: 100%;
+}
+#formEnter{
+    margin: 10px;
+}
+#partitionSec{
+    margin: 10px;
+    overflow:visible;
+}
+

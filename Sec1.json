@@ -1,0 +1,22 @@
+{"questions":[
+    {"ques":"Have you had a hystromecracy?","ans":["Yes","No"],"ansValues":[1,0]},
+    {"ques":"Do you currently have an intrauterine system (IUS) such a Minera coil?","ans":["Yes","No"],"ansValues":[1,0]},
+    {"ques":"How old are you?","ans":["Younger than 40","40-44","44-54","older than 54"],"ansValues":[0,1,2,3]},
+    {"ques":"Do you prefer taking medication regularyly or with longer intervals between doses?", "ans":["More often","Less often"],"ansValues":[0,1]},
+    {"ques":"How long since your last period?","ans":["Less than a year","Over a year ago"],"ansValues":[1,0]},
+    {"ques":"Have you or anyone in your imediate family been diagnosed with osteoporosis?", "ans":["Yes","No"],"ansValues":[1,0]},
+    {"ques":"Have you or anyone in your imediate family been diagnosed with cariovascular diesease?","ans":["Yes","No"],"ansValues":[1,0]},
+    {"ques":"Have you or anyone in your imediate family been diagnosed with dementia?","ans":["Yes","No"],"ansValues":[1,0]},
+    {"ques":"Have you or anyone in your imediate family been diagnosed with Breast Cancer", "ans":["Yes","No"],"ansValues":[1,0]},
+    {"ques":"Do you smoke?","ans":["Yes","No"],"ansValues":[1,0]},
+    {"ques":"On average, how much alchold do you drink?","ans":["Less than 7 units a week","7-14 units a week","More than 14 units a week"],"ansValues":[0,1,2]},
+    {"ques":"Rate how you experience the following syptom: Heart dicomfort (racing or noticible hearbeat)?", "ans":["Never","Mild","Moderate","Severe"],"ansValues":[0,10,40,70]},
+    {"ques":"Rate how you experience the following syptom: feeling irritable (tense or nervous)?", "ans":["Never","Mild","Moderate","Severe"],"ansValues":[0,10,40,70]},
+    {"ques":"Rate how you experience the following syptom: difficulty sleeping?", "ans":["Never","Mild","Moderate","Severe"],"ansValues":[0,10,40,70]},
+    {"ques":"Rate how you experience the following syptom: joint or muscular discomfort (pain in joints)?", "ans":["Never","Mild","Moderate","Severe"],"ansValues":[0,10,40,70]},
+    {"ques":"Rate how you experience the following syptom: depressive/low mood or lack of interest in things?", "ans":["Never","Mild","Moderate","Severe"],"ansValues":[0,10,40,70]},
+    {"ques":"Rate how you experience the following syptom: anxiety or panic attacks?", "ans":["Never","Mild","Moderate","Severe"],"ansValues":[0,10,40,70]},
+    {"ques":"Rate how you experience the following syptom: hot flushes / sweating?", "ans":["Never","Mild","Moderate","Severe"],"ansValues":[0,10,40,70]},
+    {"ques":"Rate how you experience the following syptom: loss of interest in sex/ reduced sexual satisfaction?", "ans":["Never","Mild","Moderate","Severe"],"ansValues":[0,10,40,70]},
+    {"ques":"Rate how you experience the following syptom: dryness in the vagina?", "ans":["Never","Mild","Moderate","Severe"],"ansValues":[0,10,40,70]}
+    ]}

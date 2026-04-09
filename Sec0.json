@@ -1,0 +1,8 @@
+{"questions":[
+    {"ques":"Have you experienced unexplained weight loss or bloating?","ans":["Yes","No"],"ansValues":[1,0]},
+    {"ques":"Are you experience new persistent vaginal bleeding or bleeding between periods?","ans":["Yes","No"],"ansValues":[1,0]},
+    {"ques":"Have you experience unexpected bleeding after sex?","ans":["Yes","No"],"ansValues":[1,0]},
+    {"ques":"Have you felt a unexpected mass/lump on your breast?","ans":["Yes","No"],"ansValues":[1,0]},
+    {"ques":"Have you felt a unexplained lump or swelling of the abdomen?","ans":["Yes","No"],"ansValues":[1,0]},
+    {"ques":"Have you noticed an unexplained lump or lesion on your labia?","ans":["Yes","No"],"ansValues":[1,0]}
+]}
