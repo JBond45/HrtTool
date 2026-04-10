@@ -10,7 +10,7 @@ let maxMin = [1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1];
 let scoreMatrix = [];
 let chartData = [
           {name: "Criteria", children: [
-            {name: "Cardiovuscular", children:[ ]},
+            {name: "Cardiovascular", children:[ ]},
             {name: "Mental", children: []},
             {name: "Muscular and skeletal", children: []},
             {name : "Vaginal", children:[]},
@@ -76,7 +76,7 @@ function handleNextCLick(){
 
         let reason = document.createElement("p");
         let topReasons = nTopReason(Math.min(3,results[scores[scores.length - 1][0]].length-1),results[scores[scores.length - 1][0]]);
-        let reasonText = "The main reasons we recomend this treatment is because it best imporves ";
+        let reasonText = "The main reasons we recommend this treatment is because it best improves ";
         for(let i=0;i<topReasons.length;i++){
             reasonText= reasonText + questions[topReasons[i]].Crit+", ";
         }
@@ -181,7 +181,7 @@ function nextQuestion(){
     }}
 
     function loadRankings(){
-        document.getElementById("question").textContent="For each of these catorgories, score how important they are too you:";
+        document.getElementById("question").textContent="For each of these categories, score how important they are too you:";
         for(let i=0;i<questions.length;i++){
             let label = document.createElement('label');
             label.setAttribute('for',questions[i].Crit);
@@ -209,7 +209,7 @@ function nextQuestion(){
         document.getElementById("graph").hidden = false;
         var chart = anychart.treeMap(chartData, "as-tree");
 
-        chart.title("sevrerity of criteria");
+        chart.title("severity of criteria");
         chart.container("graph");
         chart.maxDepth(2);
         chart.labels().adjustFontSize(true);
@@ -224,7 +224,7 @@ function handleAns(answers){
         case 0:
             if(answers.includes("1")){
                 let infoText = document.createElement("p");
-                infoText.append("The symptoms you have answered 'yes' to could have causes that are significant, \n so we recomend that you talk to your health care providor to be reffered onto a specialist before continuing to explore treatment options");
+                infoText.append("Your response of ‘yes’ to some of these questions could indicate significant a health issue. We recommend that you talk to your health care provider to be referred onto a specialist before continuing to explore treatment options.");
                 document.getElementById("partitionSec").appendChild(infoText);
                 document.getElementById("formEnter").hidden = true;
                 break;
